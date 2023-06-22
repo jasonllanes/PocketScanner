@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".identifier.start_scanning">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PocketScanner Ready"
+        android:layout_marginVertical="15dp"
+        android:fontFamily="@font/ubunto_bold"
+        android:textColor="@color/brown"
+        android:textSize="30sp"
+        android:translationZ="20dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginHorizontal="15dp"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By tapping Start Scanning, it would ask a permission to acces your camera and after that you are good to go to scan any computer parts or peripheral."
+        android:fontFamily="@font/ubuntu_regular"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="25dp"
+
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Scanning"
+        android:fontFamily="@font/ubuntu_regular"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        app:backgroundTint="@color/brown"
+        app:cornerRadius="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="25dp"/>
+
+
+
+</LinearLayout>
